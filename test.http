@@ -1,0 +1,9 @@
+POST http://localhost:7071/api/purchase
+    
+{
+    "productId": 3000,
+    "quantity": 1,
+    "customerName": "Prasanna",
+    "customerEmail": "prasanna@gmail.com",
+    "purchasePrice": 100.00
+ }
