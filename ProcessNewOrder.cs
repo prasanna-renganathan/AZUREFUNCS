@@ -7,7 +7,7 @@ namespace PR.AzureFuncs;
 
 
      public record NewOrderMessage(Guid orderId, int productId, int quantity, 
-        string customerName, string customerEmail, decimal purchasePrice);//Guid orderId,
+        string customerName, string customerEmail, decimal purchasePrice);
 
 public class ProcessNewOrder
     {

@@ -1,23 +1,22 @@
 POST http://localhost:7071/api/purchase
     
 {
-    "productId": 672375,
-    "quantity": 1,
+    "productId": 4,
+    "quantity": 100,
     "customerName": "Prasanna",
-    "customerEmail": "prasannar@example.com",
-    "purchasePrice": 100.00
+    "customerEmail": "prasannarena@gmail.com",
+    "purchasePrice": 10001.00
  }
 
 ####
 
-GET http://localhost:7071/api/purchase/b712698d-82ed-4254-8c92-7d0e96306918
+GET http://localhost:7071/api/purchase/37c63b30-bcbd-466f-8da2-4efc0a317754
 
 #### Start a new orchestration
 
 GET http://localhost:7071/api/NewOrderOrchestration_HttpStart?price=800
 
 #Send external event
-
 POST http://localhost:7071/api/NewOrderOrchestration_Approve?id=e2cda9a15a434716bdf19e7b24003dd3
 
 {
@@ -28,4 +27,4 @@ POST http://localhost:7071/api/NewOrderOrchestration_Approve?id=e2cda9a15a434716
 
 ### Check on a specific instance
 
-GET http://localhost:7071/runtime/webhooks/durabletask/instances/ec4816a105f34b26afff849604e875d2?code=YOUR_CODE_HERE
+GET http://localhost:7071/runtime/webhooks/durabletask/instances/24f46a2ec4cf44ed9c0ce7fe9274beac?code=YOUR_CODE_HERE

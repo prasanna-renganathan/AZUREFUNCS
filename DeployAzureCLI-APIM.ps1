@@ -1,10 +1,10 @@
-$USER_NAME="cloud_user_p_63fda2d9@realhandsonlabs.com"
-$PASSWORD="7YQV^%H5"
-$SUBSCRIPTION = "P4-Real Hands-On Labs"
-$RESOURCE_GROUP = "1-bc5d8a7e-playground-sandbox"
+$USER_NAME="cloud_user_p_e6ec5397@realhandsonlabs.com"
+$PASSWORD="PL8=77N="
+$SUBSCRIPTION = "P9-Real Hands-On Labs"
+$RESOURCE_GROUP = "1-b0511198-playground-sandbox"
 $LOCATION = "eastasia"
-$APIM_SERVICE_NAME = "apimmypetstore-1"
-$PDT_ID_NAME = "mypetstore-1"
+$APIM_SERVICE_NAME = "apimmypetstores"
+$PDT_ID_NAME = "mypetstores"
 # log in and choose the subscription you want to work with
 # username: cloud_user_p_3153c650@realhandsonlabs.com
 # password: fe&3fVzC

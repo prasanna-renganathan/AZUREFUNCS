@@ -1,5 +1,4 @@
 using System.Net;
-using System.Threading.Tasks;
 using Azure;
 using Azure.Storage.Blobs;
 using Microsoft.AspNetCore.Http;
@@ -7,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
-using static PR.AzureFuncs.ProcessNewOrder;
 
 namespace PR.AzureFuncs;
 
@@ -34,7 +32,7 @@ public class NewPurchaseWebhook
     }
 /*
 the bindings that Azure Functions offers for working with databases and focusing particularly on Azure SQL and Azure Cosmos DB, 
-and we'll see how you can incorporate existing database access code, 
+and incorporate existing database access code, 
 such as Entity Framework Core, into an Azure Functions application by making use of dependency injection
 */
     [Function(nameof(NewPurchaseWebhook))]
